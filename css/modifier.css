@@ -1,0 +1,10 @@
+.-flex{
+    display: flex;
+}
+.-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.-width-full{
+    width: 100%;
+}

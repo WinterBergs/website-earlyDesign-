@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+*{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+}
+section{
+    position: relative;
+}
+header .top-bar {
+	background-color: #23272A;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+header .top-bar a{
+    color: white;
+    padding: 5px 0;
+    display: block;
+    font-size: 14px;
+    /* border: 1px dotted white; */
+}
+
+header .top-bar ul{display: flex;list-style-type: none;margin-bottom: 0;}
+header .top-bar ul li{padding: 0 10px;}
+section #carouselExampleControls .carousel-inner img{
+height: 100vh;
+}
+
+#_container img {
+    width: 200px;
+}
+
+.imgContainer {
+	margin: 10px;
+}
+.belowBar#_belowBar {
+	padding-top: 50px;
+}
+
+header #_belowBar ul {
+	list-style-type: none;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	/* align-items: center; */
+	/* align-self: center; */
+	padding: 15px 0px;
+	width: 100%;
+}
+header #_belowHead ul li{
+    align-self: center;
+}
+header #_belowBar a{
+    color: #23272A;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+#_belowHead  img{
+    width:20px;
+}
+/* below head seperator for search bar and selection list */
+#_belowHead .headSeperated{
+    display: flex;
+    flex-direction: column;
+}
+
+header .searchBar {
+	width: 400px;
+	align-self: flex-end;
+}
+#_searchBar > div{
+    float: right
+}
+#_searchBar input {
+	border: 1px solid transparent;
+	border-radius: 20px 0px 0px 20px;
+	margin: -1px 0px 0px 1px;
+}
+#_searchBar button {
+	border: 1px solid transparent;
+	border-radius: 0px 20px 20px 0px;
+	background-color: #23272A;
+	margin-top: -1px;
+}
+#_searchBar input{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #23272A;
+
+}
+#_searchBar input::placeholder{
+    text-align: center;
+    letter-spacing: 2px;
+}
+#_belowHead .search-container {
+	display: flex;
+	/* align-content: flex-end; */
+	justify-content: flex-end;
+	/* margin: 10px; */
+	/* align-self: end; */
+	margin: 5px 0px 0px 0px;
+	width: 100%;
+	padding-right: 50px;
+}
+header #_searchBar img {
+	width: 22px;
+	margin: 1px 0px 0px -1px;
+}
+/* section-A _carousel */
+#carouselExampleIndicators .carousel-inner img{
+    /* height: 60vh; */
+    }
+    .carousel {
+        position: relative;
+        height: 60vh;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 60vh;
+    }
+
+/* banner block */
+.banner{
+ 
+}
+
+#_bannerTag .row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	justify-content: space-around;
+}
+._Bannerblock{
+    height: 150px;
+    padding: 10px;
+    background: #2C2F33;
+    display: block;
+    margin:5px;
+}
+#_bannerTag .container {
+	height: 40vh;
+	padding-top: 80px;
+	/* justify-items: stretch; */
+}
+/*FEATURED CONTAIER*/
+#_featHead h3{
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+/* <!-- flex box for feaure element --> */
+.wrapper {
+	height: 300px;
+	border: 1px dotted;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+}
+.wrapperImage {
+	height: 150px;
+	width: 150px;
+    background-color:#2C2F33;
+}
+
+.tag {
+	height: 70px;
+	width: 200px;
+    border: 1px dotted;
+    display: flex;
+}
+
+#_wrap .contentBox{
+    width: auto;
+}
+
+
+.cartButton {
+	width: 200px;
+	height: 40px;
+	border: 1px dotted;
+}
+
+
+
+footer{
+    height: 100px;
+    width:100px;
+    
+}
